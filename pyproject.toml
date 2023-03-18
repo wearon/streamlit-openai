@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "streamlit-resume-parser"
+version = "0.1.0"
+description = ""
+authors = ["Fincer <noone@github.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_resume_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
